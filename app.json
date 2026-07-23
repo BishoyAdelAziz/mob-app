@@ -38,6 +38,31 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assests/fonts/Montserrat-Black.ttf",
+            "./assests/fonts/Montserrat-BlackItalic.ttf",
+            "./assests/fonts/Montserrat-Bold.ttf",
+            "./assests/fonts/Montserrat-BoldItalic.ttf",
+            "./assests/fonts/Montserrat-ExtraBold.ttf",
+            "./assests/fonts/Montserrat-ExtraBoldItalic.ttf",
+            "./assests/fonts/Montserrat-ExtraLight.ttf",
+            "./assests/fonts/Montserrat-ExtraLightItalic.ttf",
+            "./assests/fonts/Montserrat-Light.ttf",
+            "./assests/fonts/Montserrat-LightItalic.ttf",
+            "./assests/fonts/Montserrat-Medium.ttf",
+            "./assests/fonts/Montserrat-MediumItalic.ttf",
+            "./assests/fonts/Montserrat-Regular.ttf",
+            "./assests/fonts/Montserrat-RegularItalic.ttf",
+            "./assests/fonts/Montserrat-SemiBold.ttf",
+            "./assests/fonts/Montserrat-SemiBoldItalic.ttf",
+            "./assests/fonts/Montserrat-Thin.ttf",
+            "./assests/fonts/Montserrat-ThinItalic.ttf"
+          ]
+        }
       ]
     ],
     "experiments": {

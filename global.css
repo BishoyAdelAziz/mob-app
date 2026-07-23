@@ -17,6 +17,26 @@
   --color-destructive: #dc2626;
   --color-subscription: #8fd1bd;
 
+  --font-montserrat-black: montserrat-black;
+  --font-montserrat-black-italic: montserrat-black-italic;
+  --font-montserrat-bold: montserrat-bold;
+  --font-montserrat-bold-italic: montserrat-bold-italic;
+  --font-montserrat-extra-bold: montserrat-extra-bold;
+  --font-montserrat-extra-bold-italic: montserrat-extra-bold-italic;
+  --font-montserrat-extra-light: montserrat-extra-light;
+  --font-montserrat-extra-light-italic: montserrat-extra-light-italic;
+  --font-montserrat-italic: montserrat-italic;
+  --font-montserrat-light: montserrat-light;
+  --font-montserrat-light-italic: montserrat-light-italic;
+  --font-montserrat-medium: montserrat-medium;
+  --font-montserrat-medium-italic: montserrat-medium-italic;
+  --font-montserrat-regular: montserrat-regular;
+  --font-montserrat-regular-italic: montserrat-regular-italic;
+  --font-montserrat-semi-bold: montserrat-semi-bold;
+  --font-montserrat-semi-bold-italic: montserrat-semi-bold-italic;
+  --font-montserrat-thin: montserrat-thin;
+  --font-montserrat-thin-italic: montserrat-thin-italic;
+
   --spacing-0: 0px;
   --spacing-1: 4px;
   --spacing-2: 8px;
