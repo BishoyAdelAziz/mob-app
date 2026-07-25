@@ -21,7 +21,7 @@ export default function App() {
     string | null
   >(null);
   return (
-    <SafeAreaView className="flex-1 p-1  bg-background">
+    <SafeAreaView className="flex-1 p-2  bg-background">
       <View className="flex-1">
         <FlatList
           ListHeaderComponent={() => (
@@ -40,7 +40,7 @@ export default function App() {
                     {formatCurrency(HOME_BALANCE.amount)}
                   </Text>
                   <Text className="home-balance-date">
-                    {dayjs(HOME_BALANCE.nextRenewalDate).format("MM DD")}
+                    {dayjs(HOME_BALANCE.nextRenewalDate).format("DD/MM")}
                   </Text>
                 </View>
               </View>

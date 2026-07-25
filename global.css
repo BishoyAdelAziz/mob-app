@@ -99,7 +99,7 @@
   }
 
   .home-add-icon {
-    @apply size-8  ring-1 ring-primary/30 rounded-full items-center justify-center p-2;
+    @apply size-8  items-center justify-center p-2;
   }
 
   .home-balance-card {
