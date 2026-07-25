@@ -1,7 +1,7 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css";
-
+@import "tailwindcss";
 @import "nativewind/theme";
 
 @theme {
@@ -95,11 +95,11 @@
   }
 
   .home-user-name {
-    @apply ml-4 text-2xl font-sans-bold text-primary;
+    @apply ml-4 text-2xl font-montserrat-bold tracking-tighter text-primary;
   }
 
   .home-add-icon {
-    @apply size-12;
+    @apply size-8  ring-1 ring-primary/30 rounded-full items-center justify-center p-2;
   }
 
   .home-balance-card {
@@ -127,15 +127,15 @@
   }
 
   .list-title {
-    @apply text-2xl font-sans-bold text-primary;
+    @apply text-2xl font-montserrat-extra-bold-italic text-primary;
   }
 
   .list-action {
-    @apply rounded-full border border-black/20 px-4 py-1;
+    @apply rounded-full border text-xs border-black/20 px-4 py-2;
   }
 
   .list-action-text {
-    @apply text-lg font-sans-semibold text-primary;
+    @apply text-lg font-montserrat-bold text-primary;
   }
 
   .upcoming-card {
@@ -151,15 +151,15 @@
   }
 
   .upcoming-price {
-    @apply text-lg font-sans-bold text-primary;
+    @apply text-lg font-montserrat-bold text-primary;
   }
 
   .upcoming-meta {
-    @apply text-sm font-sans-semibold text-muted-foreground;
+    @apply text-sm font-montserrat-medium text-muted-foreground;
   }
 
   .upcoming-name {
-    @apply mt-2 text-lg font-sans-bold text-primary;
+    @apply mt-2 text-lg font-montserrat-bold text-primary;
   }
 
   .sub-card {
@@ -187,7 +187,7 @@
   }
 
   .sub-title {
-    @apply mb-1 text-lg font-sans-bold text-primary;
+    @apply mb-1 text-lg font-montserrat-bold text-primary;
   }
 
   .sub-meta {
@@ -199,11 +199,11 @@
   }
 
   .sub-price {
-    @apply mb-1 text-lg font-sans-bold text-primary;
+    @apply mb-1 text-lg font-montserrat-bold text-primary;
   }
 
   .sub-billing {
-    @apply text-sm font-sans-medium text-muted-foreground;
+    @apply text-sm font-montserrat-black text-muted-foreground;
   }
 
   .sub-body {
